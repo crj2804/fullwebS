@@ -1,0 +1,22 @@
+{
+  "name": "MJJFullpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webserver.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node webserver.js",
+    "server": "nodemon webserver.js",
+    "MJJConsultRevision": "npm run start --prefix MJJConsultRevision",
+    "dev": "concurrently \"npm run server\" \"npm run MJJConsultRevision\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

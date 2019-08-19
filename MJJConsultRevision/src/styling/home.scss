@@ -1,0 +1,90 @@
+body {
+  font-family: arial, helvetica;
+}
+
+h3 {
+  font-size: 6em;
+  color: #fff;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.fp-section {
+  text-align: center;
+  color: white;
+}
+
+#toTop {
+  padding: 0.93em 1.87em;
+  background: #35495e;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+  color: #fff;
+  margin: auto;
+  cursor: pointer;
+  font-size: 0.85em;
+  margin-top: 5px;
+}
+
+#toTop:hover {
+  background: #e66465;
+}
+
+#toTop:focus {
+  outline: none;
+  
+}
+
+#header {
+  position:fixed;
+		height: 50px;
+		display:block;
+    width: 100%;
+    background: transparent;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+}
+
+.fp-slidesNav ul li a.active span {
+  background-color: rgb(147, 146, 243)
+}
+
+
+#bg0 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+  background-size: cover;
+}
+
+#bg1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+  background-size: cover;
+}
+
+#bg2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+  background-size: cover;
+}
+
+.leftSide {
+  float: left;
+  width: 50%;
+  background-size: cover;
+  height: 100%;
+}
+
+.rightSide {
+  float: left;
+  width: 50%;
+  background: rgba(3, 74, 167, 0.829);
+  height: 100%;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+}
