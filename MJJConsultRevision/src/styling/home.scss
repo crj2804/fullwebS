@@ -78,13 +78,17 @@ h4 {
   width: 50%;
   background-size: cover;
   height: 100%;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
 }
 
 .rightSide {
   float: left;
   width: 50%;
-  background: rgba(3, 74, 167, 0.829);
+  background: linear-gradient(rgba(3, 74, 167, 1), rgba(3,74,167,0.5));
   height: 100%;
-    padding-top: 50vh;
-    padding-bottom: 50vh;
+  padding-top: 30vh;
+  padding-bottom: 50vh;
+  text-align: left;
 }
+

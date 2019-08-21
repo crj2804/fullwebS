@@ -33,7 +33,7 @@ class Contact extends React.Component {
         email,
         message
       }
-    }).then((response)=> {
+    }).then((response) => {
       if (response.data.message === 'success'){
         alert("Message Sent.");
         this.resetForm()

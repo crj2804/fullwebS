@@ -2,6 +2,7 @@ import React from 'react';
 import "fullpage.js/vendors/scrolloverflow";
 import ReactFullpage from '@fullpage/react-fullpage';
 import Contact from "./Contact";
+import ToolTips from "./ToolTips";
 
 import "../styling/home.scss";
 import "../styling/animation.scss";
@@ -19,30 +20,21 @@ function Home() {
           return (
             <div id="fullpage-wrapper">
               <div className="section section-one fp-auto-height-responsive" id="bg0">
-              <div className="slide slide-one">
-                  <h3>C-O-R</h3>
-                  <h3>Customization-Optimization-Reliability</h3>
+              <h3>C-O-R</h3>
+             <h3>Cutting-Edge IT Company bringing you the best IT services for over 20 years</h3>
+             <ToolTips />
                 </div>
-                <div className="slide slide-two">
-                  <h3>Customization</h3>
-                  <button id="learnMore" onClick={() => fullpageApi.moveTo(2, 0)}>
-                    Learn More
-                  </button>
-                </div>
-                <div className="slide slide-three">
-                  <h3>Optimization</h3>
-                </div>
-                <div className="slide slide-four">
-                  <h3>Reliability</h3>
-                </div>
-              </div>
               <div className="section section-two fp-auto-height-responsive" id="bg1">
                 <div className="leftSide">
                   <h3> About Us </h3>
                 </div>
                 <div className="rightSide">
-                  <h3> Customization </h3>
-                  <p> Customization fldksjflkdsjflkdashjlfkhdskjfhdskjhfsdkajhfkjdshfkndsn fknds</p>
+                  <h3>Customization</h3>
+                  <p> Customization fkndsndaskldjaslkjdlskajdlksajd</p>
+                  <h3>Optimization</h3>
+                  <p>Optimization fdshfkldshkfhsdkjhfkjsdhfkjdshkfah</p>
+                  <h3>Reliability</h3>
+                  <p>Reliability kjsdlfjdsklfjdlskjfldsjfkljsdklfjdslf</p>
                 </div>
               </div>
               <div className="section section-three fp-auto-height-responsive" id="bg2">

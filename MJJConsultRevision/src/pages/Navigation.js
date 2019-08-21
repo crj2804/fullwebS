@@ -2,7 +2,7 @@ import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../styling/nav.scss";
 
-function Navigation (){
+function Navigation () {
   return(
     <header id="header">
       <nav class="nav-collapse" role="navigation">
