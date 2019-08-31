@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Tooltip } from 'reactstrap';
 
 import "../styling/tooltips.scss";
+import "../styling/animations.scss";
 
 class TooltipItem extends React.Component {
   constructor(props) {
@@ -22,11 +23,11 @@ class TooltipItem extends React.Component {
   render() {
     return (
       <span>
-        <Button className="mr-1" color="secondary" id={'Tooltip-' + this.props.id}>
+        <Button className="mr-1" color="info" id={'Tooltip-' + this.props.id}>
           {this.props.item.text}
         </Button>
         <Tooltip placement={this.props.item.placement} isOpen={this.state.tooltipOpen} target={'Tooltip-' + this.props.id} toggle={this.toggle}>
-          Tooltip Content!
+          {this.props.item.content}
         </Tooltip>
       </span>
     );
@@ -41,15 +42,21 @@ class ToolTips extends React.Component {
       tooltips: [
         {
           placement: 'right',
-          text: 'Customization'
+          text: 'Customization',
+          content: 'Customization fdskfkdsfjkdshfdsnfkdjfk',
+          abv: 'C '
         },
         {
           placement: 'right',
-          text: 'Optimization'
+          text: 'Optimization',
+          content:'Optimization fjkdshfkjdhsfkjhdskffdshjfkhs',
+          abv: 'O '
         },
         {
           placement: 'right',
-          text: 'Reliabilty'
+          text: 'Reliability',
+          content: 'Reliability flkdsfldsfkhdskfhdskjfhs',
+          abv: 'R '
         }
       ]
     };

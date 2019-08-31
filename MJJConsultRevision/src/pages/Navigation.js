@@ -5,16 +5,19 @@ import "../styling/nav.scss";
 function Navigation () {
   return(
     <header id="header">
-      <nav class="nav-collapse" role="navigation">
-        <ul class="tabs primary-nav">
-          <li class="tabs__item">
-            <a href="#home" class="tabs__link">Home</a>
+      <nav className="nav-collapse" role="navigation">
+        <ul className="tabs primary-nav">
+          <li className="tabs__item">
+            <a href="#home" className="tabs__link">Home</a>
           </li>
-          <li class="tabs__item">
-            <a href="#about" class="tabs__link">About</a>
+          <li className="tabs__item">
+            <a href="#about" className="tabs__link">About</a>
           </li>
-          <li class="tabs__item">
-            <a href="#contact" class="tabs__link">Contact</a>
+          <li className="tabs__item">
+            <a href="#services" className="tabs__link">Services & Hours</a>
+          </li>
+          <li className="tabs__item">
+            <a href="#contact" className="tabs__link">Contact</a>
           </li>
         </ul>
       </nav>

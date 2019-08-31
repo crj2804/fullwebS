@@ -141,27 +141,3 @@
 }
 
 /* ========== section-two content animation ========== */
-.section-three > .fp-tableCell h1,
-.section-three > .fp-tableCell form,
-.section-three > .fp-tableCell #toTop,
-.section-three > .fp-tableCell p {
-    transform: translateY(-1000px);
-	opacity: 0;
-    transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
-    opacity .66s ease-in-out;
-}
-.section-three.active > .fp-tableCell h1,
-.section-three.active > .fp-tableCell form,
-.section-three.active > .fp-tableCell #toTop,
-.section-three.active > .fp-tableCell p {
-    transform: translateY(0);
-	opacity: 1;
-}
-
-.section-three.active > .fp-tableCell p {
-	transition-delay: .22s;
-}
-
-.section-three.active > .fp-tableCell p + p {
-	transition-delay: .44s;
-}

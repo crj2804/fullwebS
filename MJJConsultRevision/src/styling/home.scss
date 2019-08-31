@@ -64,7 +64,6 @@ h4 {
 }
 
 #bg1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
   background-size: cover;
 }
 
@@ -73,22 +72,26 @@ h4 {
   background-size: cover;
 }
 
-.leftSide {
-  float: left;
-  width: 50%;
+#bg3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
   background-size: cover;
+}
+
+
+.leftSide {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+  background-size: cover;
+  float: right;
+  width: 50%;
   height: 100%;
-  padding-top: 50vh;
-  padding-bottom: 50vh;
+  padding-top: 20vh
 }
 
 .rightSide {
-  float: left;
+  background-image: linear-gradient(270deg, rgba(10, 128, 118,0.5), rgba(47, 226, 211, 0.5)), url('https://i.pinimg.com/originals/a3/04/16/a304168113a5f756762b40e998e21b04.jpg');
+  float: right;
   width: 50%;
-  background: linear-gradient(rgba(3, 74, 167, 1), rgba(3,74,167,0.5));
   height: 100%;
-  padding-top: 30vh;
-  padding-bottom: 50vh;
-  text-align: left;
+  padding-top: 20vh;
 }
 
