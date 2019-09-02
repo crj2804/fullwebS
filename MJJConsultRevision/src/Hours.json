@@ -1,0 +1,23 @@
+ [
+     {
+         "Day": [
+             {
+             "one":"Monday",
+             "two":"Tuesday",
+             "three":"Wednesday",
+             "four":"Thursday",
+             "five":"Friday",
+             "six":"Saturday",
+             "seven":"Sunday"
+             }
+         ]
+     },
+     {
+         "Hours": [
+             {
+                 "open":"9:00-5:00",
+                 "closed":"Closed"
+             }
+         ]
+     }
+ ]

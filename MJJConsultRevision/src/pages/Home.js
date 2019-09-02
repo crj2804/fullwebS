@@ -22,14 +22,13 @@ function Home() {
           return (
             <div id="fullpage-wrapper">
               <div className="section section-one fp-auto-height-responsive" id="bg0">
-              <h3>MJJ Consulting</h3>
-             <h3>Bringing you the best IT services for over 20 years</h3>
+              <h3 id="title">MJJ Consulting</h3>
+             <h3 id="years">Bringing you the best IT services for over 20 years</h3>
              <ToolTips />
-             <h4>C-O-R</h4>
                 </div>
               <div className="section section-two fp-auto-height-responsive" id="bg1">
               <div className="leftSide">
-                <h3>What We Do</h3>
+                <h3 id="head">What We Do</h3>
                 <ListItems />
                 </div>
                 <div className="rightSide">
