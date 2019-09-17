@@ -1,0 +1,38 @@
+ [
+     {
+         "Day":"Monday",
+         "Weekend": false
+     },
+     {
+         "Day":"Tuesday",
+         "Weekend": false
+     },
+     {
+         "Day":"Wednesday",
+         "Weekend": false
+     },
+     {
+         "Day":"Thursday",
+         "Weekend": false
+     },
+     {
+         "Day":"Friday",
+         "Weekend": false
+     },
+     {
+         "Day":"Saturday",
+         "Weekend": true
+     },
+     {
+         "Day":"Sunday",
+         "Weekend": true
+     },
+     {
+        "Hours":"9:00AM-5:00PM",
+        "Weekend": false
+     },
+     {
+        "Closed":"Closed",
+        "Weekend": true
+     }
+ ]

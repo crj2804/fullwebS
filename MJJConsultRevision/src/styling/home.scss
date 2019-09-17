@@ -80,15 +80,16 @@ h4 {
 
 .leftSide {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg');
-  background-size: cover;
+  background-size: cover; 
   float: right;
   width: 50%;
   height: 100%;
-  padding-top: 20vh
+  padding-top: 20vh;
 }
 
 .rightSide {
   background-image: linear-gradient(270deg, rgba(10, 128, 118,0.5), rgba(47, 226, 211, 0.5)), url('https://i.pinimg.com/originals/a3/04/16/a304168113a5f756762b40e998e21b04.jpg');
+  background-size: cover;
   float: right;
   width: 50%;
   height: 100%;

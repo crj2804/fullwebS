@@ -4,7 +4,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import Contact from "./Contact";
 import ToolTips from "./ToolTips";
 import ListItems from "./ListData";
-
+import Services from "./DaysHours";
 
 import "../styling/home.scss";
 import "../styling/animations.scss";
@@ -14,7 +14,6 @@ function Home() {
       <ReactFullpage
         verticalCentered
         slidesNavigation
-        licenseKey={'DA2FC455-D9C142A7-8C22CB54-7898C64E'}
         scrollOverflow={true}
         sectionsColor={[""]}
         anchors={['home', 'about', 'services', 'contact']}
@@ -37,6 +36,7 @@ function Home() {
                 </div>
               </div>
               <div className="section section-three fp-auto-height-responsive" id="bg2">
+                <Services />
               </div>
               <div className="section section-four fp-auto-height-responsive" id="bg3">
                 <Contact />

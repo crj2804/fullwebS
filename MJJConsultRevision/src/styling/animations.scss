@@ -1,0 +1,123 @@
+.section-one > .fp-tableCell h3 ,
+.section-one > .fp-tableCell h4 {
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+
+.section-one.active > .fp-tableCell h3,
+.section-one.active > .fp-tableCell h4 {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.section-one > .fp-tableCell #inline  {
+	transform: translateX(100%);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+
+.section-one > .fp-tableCell #inline + #inline {
+	transform: translateX(-100%);
+}
+
+.section-one > .fp-tableCell #inline + #inline + #inline {
+	transform: translateX(0) translateY(0);
+	transform: translateY(1000px);
+}
+
+.section-one.active > .fp-tableCell #inline {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.section-one.active > .fp-tableCell #inline {
+	transition-delay: .2s;
+}
+
+.section-one.active > .fp-tableCell #inline + #inline {
+	transition-delay: .4s;
+}	
+
+.section-one.active > .fp-tableCell #inline + #inline + #inline {
+	transition-delay: .6s;
+}
+//End section-one
+//section-two start
+.section-two > .fp-tableCell h3 {
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+
+.section-two.active > .fp-tableCell h3 {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.section-two > .fp-tableCell p,
+.section-two > .fp-tableCell li {
+	transform: translateX(100%);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+
+.section-two > .fp-tableCell p + p + li {
+	transform: translateX(-100%);
+}
+
+.section-two > .fp-tableCell p + p + p + li {
+	transform: translateX(0) translateY(0);
+	transform: translateY(1000px);
+}
+
+.section-two.active > .fp-tableCell p,
+.section-two.active > .fp-tableCell li {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.section-two.active > .fp-tableCell p, 
+.section-two.active > .fp-tableCell li {
+	transition-delay: .2s;
+}
+
+.section-two.active > .fp-tableCell p + p {
+	transition-delay: .4s;
+}
+
+.section-two.active > .fp-tableCell p + p + p {
+	transition-delay: .6s;
+}
+
+//end section two
+
+.section-four > .fp-tableCell h1,
+.section-four > .fp-tableCell form,
+.section-four > .fp-tableCell #toTop,
+.section-four > .fp-tableCell p {
+    transform: translateX(-1000px);
+	opacity: 0;
+    transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+    opacity .8s ease-in-out;
+}
+.section-four.active > .fp-tableCell h1,
+.section-four.active > .fp-tableCell form,
+.section-four.active > .fp-tableCell #toTop,
+.section-four.active > .fp-tableCell p {
+    transform: translateX(0);
+	opacity: 1;
+}
+
+.section-four.active > .fp-tableCell p {
+	transition-delay: .22s;
+}
+
+.section-four.active > .fp-tableCell p + p {
+	transition-delay: .44s;
+}
+

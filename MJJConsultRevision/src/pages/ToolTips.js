@@ -43,19 +43,19 @@ class ToolTips extends React.Component {
         {
           placement: 'bottom',
           text: 'Customization',
-          content: 'Customization fdskfkdsfjkdshfdsnfkdjfk',
+          content: 'Systems & applications customized for your particular business environment and/or your personal needs or preferences',
           abv: 'C '
         },
         {
           placement: 'bottom',
           text: 'Optimization',
-          content:'Optimization fjkdshfkjdhsfkjhdskffdshjfkhs',
+          content:'Operating systems and hardware optimized for you and how you use your system',
           abv: 'O '
         },
         {
           placement: 'bottom',
           text: 'Reliability',
-          content: 'Reliability flkdsfldsfkhdskfhdskjfhs',
+          content: 'Your system should be predictable, reliable and secure',
           abv: 'R '
         }
       ]
