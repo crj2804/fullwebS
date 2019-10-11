@@ -105,19 +105,79 @@
     transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
     opacity .8s ease-in-out;
 }
+.section-four > .fp-tableCell #animatetable {
+	transform: translateX(1000px);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+	opacity .8s ease-in-out
+}
+
 .section-four.active > .fp-tableCell h1,
 .section-four.active > .fp-tableCell form,
 .section-four.active > .fp-tableCell #toTop,
+.section-four.active > .fp-tableCell #animatetable,
 .section-four.active > .fp-tableCell p {
     transform: translateX(0);
 	opacity: 1;
 }
 
-.section-four.active > .fp-tableCell p {
+.section-four.active > .fp-tableCell li {
 	transition-delay: .22s;
 }
 
-.section-four.active > .fp-tableCell p + p {
+.section-four.active > .fp-tableCell li + li {
 	transition-delay: .44s;
 }
 
+
+/* slide one */
+.section-two .slide-one > .fp-tableCell h3,
+.section-two .slide-one > .fp-tableCell li {
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out;
+}
+
+.section-two.active .slide-one.active > .fp-tableCell h3,
+.section-two.active .slide-one.active > .fp-tableCell li {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.section-two.active .slide-one.active > .fp-tableCell h3 {
+	transition-delay: .44s;
+}
+
+.section-two.active .slide-one.active > .fp-tableCell li, {
+	transition-delay: .22s;
+}
+
+.section-two.active .slide-one.active > .fp-tableCell li + li {
+	transition-delay: 0s;
+}
+/* End slide one */
+
+/* Slide 2 */
+.section-two .slide-two > .fp-tableCell h3,
+.section-two .slide-two > .fp-tableCell p {
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out;
+}
+
+.section-two.active .slide-two.active > .fp-tableCell h3,
+.section-two.active .slide-two.active > .fp-tableCell p {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.section-one.active .slide-two.active > .fp-tableCell p {
+	transition-delay: .22s;
+}
+
+.section-one.active .slide-two.active > .fp-tableCell p + p {
+	transition-delay: .44s;
+}
+/* End slide two */
