@@ -24,7 +24,7 @@ class Contact extends React.Component {
 
   handleSubmit(e) {
     const { name, email, message } = this.state;
-    
+    e.preventDefault();
     axios ({
       method: "post",
       url: "http://localhost:3000/contact",
@@ -40,7 +40,8 @@ class Contact extends React.Component {
         alert("Message failed to send.")
       }
     });
-
+    document.getElementById("myForm").reset();
+    alert('Message Sent');
   }
 
 
@@ -48,7 +49,7 @@ class Contact extends React.Component {
     return (
       <div className="form-container">
         <h1>Contact Us</h1>
-        <form class="contact-form" onSubmit={this.handleSubmit} method="post">
+        <form class="contact-form" id="myForm" onSubmit={this.handleSubmit} method="post">
           <label for="name">Name:</label>
           <input
             type="text"
