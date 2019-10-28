@@ -59,30 +59,30 @@
 }
 
 .section-two > .fp-tableCell p,
-.section-two > .fp-tableCell li {
+.section-two > .fp-tableCell .cardAni {
 	transform: translateX(100%);
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 				opacity .8s ease-in-out;
 }
 
-.section-two > .fp-tableCell p + p + li {
+.section-two > .fp-tableCell p + p + .cardAni {
 	transform: translateX(-100%);
 }
 
-.section-two > .fp-tableCell p + p + p + li {
+.section-two > .fp-tableCell p + p + p + .cardAni {
 	transform: translateX(0) translateY(0);
 	transform: translateY(1000px);
 }
 
 .section-two.active > .fp-tableCell p,
-.section-two.active > .fp-tableCell li {
+.section-two.active > .fp-tableCell .cardAni {
 	transform: translateX(0);
 	opacity: 1;
 }
 
 .section-two.active > .fp-tableCell p, 
-.section-two.active > .fp-tableCell li {
+.section-two.active > .fp-tableCell .cardAni {
 	transition-delay: .2s;
 }
 
@@ -106,7 +106,7 @@
     opacity .8s ease-in-out;
 }
 .section-four > .fp-tableCell #animatetable {
-	transform: translateX(1000px);
+	transform: translateX(-1000px);
 	opacity: 0;
 	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 	opacity .8s ease-in-out

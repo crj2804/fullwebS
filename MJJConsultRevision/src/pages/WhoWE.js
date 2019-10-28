@@ -1,15 +1,15 @@
 import React from 'react';
-import contents from "../MyData.json";
+import mcontents from "../MyData.json";
 
 import "../styling/listdata.scss";
 
-function ListItems () {
+function ListWho () {
     return (
         <div>
         <ul className="ulist" style={{marginLeft: '-20px'}}>
-            {contents.map((data, i) => {
+            {mcontents.map((data, i) => {
                 return<li className="listStyle" key={i} item={data}>
-                    {data.content}
+                    {data.MContent}
                 </li>
             })}
         </ul>
@@ -17,4 +17,4 @@ function ListItems () {
     )
 }
 
-export default ListItems;
+export default ListWho;

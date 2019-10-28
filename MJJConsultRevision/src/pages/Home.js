@@ -5,6 +5,9 @@ import Contact from "./Contact";
 import ToolTips from "./ToolTips";
 import ListItems from "./ListData";
 import Services from "./DaysHours";
+import HList from "./HList";
+import ListWho from "./WhoWE";
+import Card from 'react-bootstrap/Card';
 
 import "../styling/home.scss";
 import "../styling/animations.scss";
@@ -27,15 +30,39 @@ function Home() {
              <ToolTips />
                 </div>
               <div className="section section-two fp-auto-height-responsive" id="bg1">
-                <div className="slide slide-one">
-                  <h2 id="slide-header">What we offer</h2>
-                  <ListItems />
+                <div className="leftSide">
+                  <Card bg="info" text="white" className="cardAni">
+                    <Card.Header>Who We Are</Card.Header>
+                    <Card.Body>
+                      <Card.Text>
+                        <ListWho />
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
                 </div>
-                <div className="slide slide-two">
+                <div className="middle">
+                  <Card bg="info" text="white" className="cardAni">
+                    <Card.Header>What we do</Card.Header>
+                    <Card.Body>
+                      <Card.Text>
+                        <ListItems />
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </div>
+                <div className="rightSide">
+                  <Card bg="info" text="white" className="cardAni">
+                    <Card.Header>How we do it</Card.Header>
+                    <Card.Body>
+                      <Card.Text>
+                        <HList />
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
                 </div>
               </div>
               <div className="section section-four fp-auto-height-responsive" id="bg3">
-                <div className="leftSide">
+                <div className="lefts">
                 <Contact />
                 <button id="toTop" onClick={() => fullpageApi.moveTo(1, 0)}>
                   Move to Top
@@ -45,7 +72,7 @@ function Home() {
                   <p style={{marginTop: '-10px'}}>Email: mark@mjjconsult.com</p>
                 </div>
                 </div>
-                <div className="rightSide">
+                <div className="rights">
                   <Services />
                 </div>
               </div>

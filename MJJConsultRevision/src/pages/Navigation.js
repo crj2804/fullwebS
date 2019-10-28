@@ -14,9 +14,6 @@ function Navigation () {
             <a href="#about" className="tabs__link">About</a>
           </li>
           <li className="tabs__item">
-            <a href="#services" className="tabs__link">Services & Hours</a>
-          </li>
-          <li className="tabs__item">
             <a href="#contact" className="tabs__link">Contact</a>
           </li>
         </ul>
